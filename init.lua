@@ -137,7 +137,17 @@ require("lazy").setup({
         vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { silent = true })
       end,
     },
-
+  {
+  'akinsho/toggleterm.nvim',
+  version = "*",
+  config = function()
+    require("toggleterm").setup({
+      size = 10,
+      open_mapping = [[<C-\>]], -- Терминал будет открываться на Ctrl + \
+      direction = 'horizontal', -- Можно изменить на 'float' или 'vertical'
+    })
+  end
+  },
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
