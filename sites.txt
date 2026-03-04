@@ -10,6 +10,10 @@ lordfilms.day
 hianimes.se
 v2.atokyo.tv
 
+--MANGA--
+mangafire.to
+weebcentral.com
+toonclash.com
 
 
 --GAMES--
