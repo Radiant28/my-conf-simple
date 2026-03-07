@@ -4,7 +4,10 @@ rezka-ua.tv
 cineby.bz
 kinogo.li
 lordfilms.day
-cinehd.xyz/
+cinehd.xyz
+flixer.su
+mappl.tv
+
 
 
 --ANIME--
